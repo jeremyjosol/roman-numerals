@@ -3,20 +3,25 @@ export function intToRomanNumeral(int) {
   return "Valid Roman numerals are between a minimum value of 1 and maximum value of 3999."
 
   const allRomanNumerals = {
-    M: 1000,
-    CM: 900,
-    D: 500,
-    CD: 400,
-    C: 100,
-    XC: 90,
-    L: 50,
-    XL: 40,
-    X: 10,
-    IX: 9,
-    V: 5,
-    IV: 4,
-    I: 1,
+    symbol: 'M', value: 1000,
+    symbol: 'CM', value: 900,
+    symbol: 'D', value: 500,
+    symbol: 'CD', value: 400,
+    symbol: 'C', value: 100,
+    symbol: 'XC', value: 90,
+    symbol: 'L', value: 50,
+    symbol: 'XL', value: 40,
+    symbol: 'X', value: 10,
+    symbol: 'IX', value: 9,
+    symbol: 'V', value: 5,
+    symbol: 'IV', value: 4,
+    symbol: 'I', value: 1,
   };
+
+  function conversion(x) {
+    if (x === 0) {
+      return "";
+    }
   
   // Symbol  Value
   // I       1
