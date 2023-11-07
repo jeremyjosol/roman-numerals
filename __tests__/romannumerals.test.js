@@ -15,4 +15,9 @@ describe('intToRomanNumeral', () => {
     const result = intToRomanNumeral(2);
     expect(result).toEqual('II');
   });
+
+  test('it should convert 1995 to MCMXCV"', () => {
+    const result = intToRomanNumeral(1995);
+    expect(result).toEqual('MCMXCV');
+  });
 });
