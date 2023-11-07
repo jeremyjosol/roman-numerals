@@ -10,4 +10,9 @@ describe('intToRomanNumeral', () => {
     const result = intToRomanNumeral(1);
     expect(result).toEqual('I');
   });
+
+  test('it should convert 2 to II"', () => {
+    const result = intToRomanNumeral(2);
+    expect(result).toEqual('II');
+  });
 });
