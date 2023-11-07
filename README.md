@@ -4,7 +4,7 @@
 _Jeremy Josol_
 
 ## About
-This application is a Roman numeral converter designed to convert integers within a specific range (1-3999) into Roman numeral representations. It's a challenging exercise for functional programming concepts like recursion and closures while utilziing TDD.
+This application is a Roman numeral converter designed to convert integers within a specific range (1-3999) into Roman numeral representations. It's an exercise for practicing functional programming concepts like recursion and closures while utilziing TDD.
 
 ## Technologies Used
 
